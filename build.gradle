@@ -55,7 +55,3 @@ tasks.register('negative_tests', Test) { //регистрируем таску �
         includeTags("negative")
     }
 }
-
-test {
-    useJUnitPlatform()
-}
